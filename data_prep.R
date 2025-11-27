@@ -1,7 +1,7 @@
 library(dplyr)
 library(stringr)
 
-bgg_dataset <- read.csv("data/bgg_dataset.csv")
+bgg_dataset <- read.csv2("bgg_dataset.csv")
 
 bgg_dataset$Domains[bgg_dataset$Domains == ""] <- "Unspecified"
 
